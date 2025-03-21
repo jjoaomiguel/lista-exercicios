@@ -227,7 +227,7 @@ verificarSinal(n)
 Crie uma função chamada converterTemperatura que receba uma
 temperatura em Celsius e retorne o valor convertido para Fahrenheit.
 
-*/
+
 
 let temp = parseFloat(prompt('Digite uma temperatura em Celcius'))
 
@@ -237,3 +237,23 @@ function converterTemperatura(temp) {
 }
 
 converterTemperatura(temp)
+
+*/
+
+/*
+13. Laço While para Somatório:
+Crie um laço while que some os números de 1 até 100
+e imprima o resultado final.
+
+*/
+
+let soma = 0;
+let n = 1;
+
+while (n < 101) {
+    soma += n;
+    n++;
+}
+
+console.log("A somatória de 1 a 100 é: " + soma);
+
