@@ -391,7 +391,7 @@ contarVogais(string)
 Crie uma função chamada somarArray que receba um array
 de números e retorne a soma de todos os elementos.
 
-*/
+
 const n1 = parseFloat(prompt('Digite seu primeiro número: '));
 const n2 = parseFloat(prompt('Digite seu segundo número: '));
 const n3 = parseFloat(prompt('Digite seu terceiro número: '));
@@ -406,3 +406,19 @@ function somarArray(notas) {
     console.log(somaDasNotas)
 }
 somarArray(notas)
+*/
+
+/*
+22. Função para Dobrar Números:
+Crie uma função chamada dobrarNumero que receba
+um número e retorne o dobro desse número.
+
+*/
+
+let n = parseFloat(prompt('Digite um número: '));
+
+function dobrarNumero(n) {
+    dobro = n + n;
+    console.log('O dobro desse número é: ' + dobro);
+}
+dobrarNumero(n)
