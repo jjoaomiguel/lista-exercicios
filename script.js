@@ -282,7 +282,7 @@ substituirPalavra(string)
 Crie uma função chamada verificarTamanho que receba uma
 string e informe se ela tem mais de 10 caracteres ou não.
 
-*/
+
 
 let string = prompt('Digite uma palavra: ')
 
@@ -295,3 +295,15 @@ function verificarTamanho(string) {
     }
 }
 verificarTamanho(string)
+*/
+
+/*
+16. Criando e Acessando Array:
+Crie um array chamado frutas com pelo menos 5 frutas diferentes. 
+Imprima no console a terceira fruta da lista.
+
+*/
+
+let frutas = ["Maça", "Uva", "Banana", "Laranja", "Mamão"];
+
+console.log(frutas[2]);
