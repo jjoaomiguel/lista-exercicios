@@ -446,7 +446,7 @@ Crieuma função chamada capitalizar que receba uma string e retorne a
 mesma string com a primeira letra maiúscula. Exemplo: "javascript" →
 "Javascript".
 
-*/
+
 
 let string = prompt('Digite uma palavra: ');
 
@@ -455,4 +455,22 @@ function capitalizar(string) {
 }
 console.log(capitalizar(string))
 capitalizar(string)
+*/
 
+/*
+25. Verificação de Ano Bissexto:
+Crie uma função chamada anoBissexto que receba um ano e retorne
+true se for bissexto, ou false se não for.
+
+*/
+
+let ano = prompt('Digite um ano: ');
+
+function anoBissexto(ano) {
+    if (ano % 4 === 0) {
+        console.log('Esse é um ano Bissexto');
+    } else {
+        console.log('Esse não é um ano Bissexto');
+    }
+}
+anoBissexto(ano)
