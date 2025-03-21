@@ -161,7 +161,7 @@ media(n1,n2,n3)
 Crie um laço for que percorra de 1 a 20 e imprima "Múltiplo de 3"
 nos  números que sejam múltiplos de 3, e "Não múltiplo de 3" nos outros números.
 
-*/
+
 
 let n = 0
 
@@ -175,3 +175,24 @@ while (n < 20) {
         console.log(n + ' não é múltiplo de 3');
     }
 }
+
+*/
+
+/*
+10. Verificação de Palavra Palíndroma:
+Crie uma função chamada verificarPalindromo que receba uma palavra e verifique
+se ela é um palíndromo (ex: "arara"). A função deve retornar true ou false.
+
+*/
+
+let string = prompt('Digite uma palavra: ')
+
+function verificarPalindromo (string) {
+    let reverse = string.split('').reverse('').join('');
+    if (string === reverse) {
+        console.log('Essa palavra é um Palíndromo');
+    }else {
+        console.log('Essa palavra não é um Palíndromo');
+    }
+}
+verificarPalindromo (string)
