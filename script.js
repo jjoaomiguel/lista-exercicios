@@ -106,7 +106,7 @@ contarCaracteres(string)
 Crie um objeto carro com as propriedades marca, modelo e ano.
 Imprima no console o valor da propriedade modelo.
 
-*/
+
 
 const carro = {
     type:'BMW',
@@ -114,3 +114,22 @@ const carro = {
     year: '2013'
 };
 console.log('A marca do carro é uma ' + carro.type + ' do tipo ' + carro.model + ' do ano de lanaçamento ' + carro.year + '.');
+
+*/
+
+/*
+7. Função com Parâmetros Opcionais:
+Crie uma função chamada mensagemPersonalizada que tenha dois parâmetros,  nome e mensagem,
+sendo que o parâmetro mensagem deve ter um valor padrão de "Olá!".
+A função deve imprimir a mensagem personalizada com o nome da pessoa.
+
+*/
+
+let nome = prompt('Digite seu nome: ');
+const mensagem = ('Olá!');
+
+function mensagemPersonalizada(nome, mensagem) {
+    console.log(mensagem + ' ' + nome);
+}
+
+mensagemPersonalizada (nome, mensagem)
