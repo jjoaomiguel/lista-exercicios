@@ -222,5 +222,18 @@ function verificarSinal(n) {
 verificarSinal(n)
 */
 
+/*
+12. Função para Converter Celsius em Fahrenheit:
+Crie uma função chamada converterTemperatura que receba uma
+temperatura em Celsius e retorne o valor convertido para Fahrenheit.
 
+*/
 
+let temp = parseFloat(prompt('Digite uma temperatura em Celcius'))
+
+function converterTemperatura(temp) {
+    const conversao = (temp * 1.8) + 32
+    console.log('A conversão dessa temperatura para Fahrenheit é: ' + conversao)
+}
+
+converterTemperatura(temp)
