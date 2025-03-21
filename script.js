@@ -264,7 +264,7 @@ console.log("A somatória de 1 a 100 é: " + soma);
 Crie uma função chamada substituirPalavra que receba uma string
 e substitua todas as ocorrências da palavra "azul" por "vermelho".
 
-*/
+
 
 let string = prompt('Digite uma frase que contenha a palavra azul: ')
 
@@ -274,3 +274,24 @@ function substituirPalavra(string) {
 }
 
 substituirPalavra(string)
+
+*/
+
+/*
+15. Verificação de Tamanho de String:
+Crie uma função chamada verificarTamanho que receba uma
+string e informe se ela tem mais de 10 caracteres ou não.
+
+*/
+
+let string = prompt('Digite uma palavra: ')
+
+function verificarTamanho(string) {
+    let qntdLetras = string.length;
+    if (qntdLetras > 10) {
+        console.log('Essa palavra tem mais de 10 caracteres')
+    } else {
+        console.log('Essa palavra não tem mais de 10 caracteres')
+    }
+}
+verificarTamanho(string)
