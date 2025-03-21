@@ -245,7 +245,7 @@ converterTemperatura(temp)
 Crie um laço while que some os números de 1 até 100
 e imprima o resultado final.
 
-*/
+
 
 let soma = 0;
 let n = 1;
@@ -257,3 +257,20 @@ while (n < 101) {
 
 console.log("A somatória de 1 a 100 é: " + soma);
 
+*/
+
+/*
+14. Substituição de Palavras em String:
+Crie uma função chamada substituirPalavra que receba uma string
+e substitua todas as ocorrências da palavra "azul" por "vermelho".
+
+*/
+
+let string = prompt('Digite uma frase que contenha a palavra azul: ')
+
+function substituirPalavra(string) {
+    let novaString = string.replace('azul', 'vermelho');
+    console.log(novaString)
+}
+
+substituirPalavra(string)
