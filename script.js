@@ -141,7 +141,7 @@ mensagemPersonalizada (nome, mensagem)
 Crie uma função chamada media que receba 3 números como
 parâmetros e retorne a média aritmética desses números.
 
-*/
+
 
 let n1 = parseFloat (prompt('Digite o primeiro número: '))
 let n2 = parseFloat (prompt('Digite o segundo número: '))
@@ -153,3 +153,25 @@ function media (n1, n2, n3) {
 }
 
 media(n1,n2,n3)
+
+*/
+
+/*
+9. Laço for com Condição:
+Crie um laço for que percorra de 1 a 20 e imprima "Múltiplo de 3"
+nos  números que sejam múltiplos de 3, e "Não múltiplo de 3" nos outros números.
+
+*/
+
+let n = 0
+
+while (n < 20) {
+    n++
+    let resultado = n % 3
+
+    if (resultado === 0) {
+        console.log (n + ' é múltiplo de 3');
+    }else {
+        console.log(n + ' não é múltiplo de 3');
+    }
+}
