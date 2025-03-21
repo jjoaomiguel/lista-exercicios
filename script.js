@@ -88,7 +88,7 @@ inverterTexto(string)
 Crie uma função chamada contarCaracteres que receba
 uma string e retorne o número de caracteres dessa string.
 
-*/
+
 
 let string = prompt('Digite sua palavra:')
 
@@ -98,3 +98,19 @@ function contarCaracteres(string) {
 }
 
 contarCaracteres(string)
+
+*/
+
+/*
+6. Acessando Propriedades de Objetos:
+Crie um objeto carro com as propriedades marca, modelo e ano.
+Imprima no console o valor da propriedade modelo.
+
+*/
+
+const carro = {
+    type:'BMW',
+    model: 'i3',
+    year: '2013'
+};
+console.log('A marca do carro é uma ' + carro.type + ' do tipo ' + carro.model + ' do ano de lanaçamento ' + carro.year + '.');
