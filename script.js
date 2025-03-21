@@ -1,4 +1,4 @@
-console.log ('Hello, world!');
+console.log('Hello, world!');
 
 /*
 1. Verificação de Par ou Ímpar:
@@ -183,7 +183,7 @@ while (n < 20) {
 Crie uma função chamada verificarPalindromo que receba uma palavra e verifique
 se ela é um palíndromo (ex: "arara"). A função deve retornar true ou false.
 
-*/
+
 
 let string = prompt('Digite uma palavra: ')
 
@@ -196,3 +196,5 @@ function verificarPalindromo (string) {
     }
 }
 verificarPalindromo (string)
+
+*/
