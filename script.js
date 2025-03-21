@@ -123,13 +123,33 @@ Crie uma função chamada mensagemPersonalizada que tenha dois parâmetros,  nom
 sendo que o parâmetro mensagem deve ter um valor padrão de "Olá!".
 A função deve imprimir a mensagem personalizada com o nome da pessoa.
 
-*/
+
 
 let nome = prompt('Digite seu nome: ');
-const mensagem = ('Olá!');
+const mensagem = ('Olá! ');
 
 function mensagemPersonalizada(nome, mensagem) {
-    console.log(mensagem + ' ' + nome);
+    console.log(mensagem + nome);
 }
 
 mensagemPersonalizada (nome, mensagem)
+
+*/
+
+/*
+8. Calculadora de Média:
+Crie uma função chamada media que receba 3 números como
+parâmetros e retorne a média aritmética desses números.
+
+*/
+
+let n1 = parseFloat (prompt('Digite o primeiro número: '))
+let n2 = parseFloat (prompt('Digite o segundo número: '))
+let n3 = parseFloat (prompt('Digite o terceiro número: '))
+
+function media (n1, n2, n3) {
+    let media = (n1 + n2 + n3) / 3
+    console.log('A média dessas 3 notas são: ' + media);
+}
+
+media(n1,n2,n3)
