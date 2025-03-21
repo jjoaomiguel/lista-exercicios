@@ -334,7 +334,7 @@ Crie uma função chamada verificarAprovacao que receba uma nota
 retorne "Aprovado" se for maior ou igual a 6, e "Reprovado"
 se for menor que 6.
 
-*/
+
 
 let nota = prompt('Digite sua nota: ')
 
@@ -346,3 +346,18 @@ function verificarAprovacao(nota) {
     }
 }
 verificarAprovacao(nota)
+
+*/
+
+/*
+19. Laço for para Contagem de Pares:
+Crie um laço for que percorra os números de 0 a 30
+e imprima apenas os números pares.
+
+*/
+
+for (let i = 0; i <= 30; i++) {
+    if (i % 2 === 0) {
+        console.log(i)
+    }
+}
