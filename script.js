@@ -428,7 +428,7 @@ dobrarNumero(n)
 23. Laço While para Contagem de Pares:
 Crie um laço while que imprima todos os números pares de 2 até 20.
 
-*/
+
 
 let n = 2
 
@@ -438,3 +438,21 @@ while (n <= 20) {
         console.log(n)
     }
 }
+*/
+
+/*
+24. Capitalizar Primeira Letra:
+Crieuma função chamada capitalizar que receba uma string e retorne a
+mesma string com a primeira letra maiúscula. Exemplo: "javascript" →
+"Javascript".
+
+*/
+
+let string = prompt('Digite uma palavra: ');
+
+function capitalizar(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1)
+}
+console.log(capitalizar(string))
+capitalizar(string)
+
