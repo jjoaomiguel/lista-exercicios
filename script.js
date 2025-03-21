@@ -302,8 +302,26 @@ verificarTamanho(string)
 Crie um array chamado frutas com pelo menos 5 frutas diferentes. 
 Imprima no console a terceira fruta da lista.
 
-*/
+
 
 let frutas = ["Maça", "Uva", "Banana", "Laranja", "Mamão"];
 
 console.log(frutas[2]);
+
+*/
+
+/*
+17. Função com Valor Padrão em Dois Parâmetros:
+Crie uma função chamada saudacao que tenha dois parâmetros,
+nome e saudacao, sendo saudacao padrão "Bem-vindo(a)".
+A função deve retornar a frase completa.
+
+*/
+
+let nome = prompt('Digite seu nome: ');
+let saudacao = 'Bem vindo(a)! '
+
+function saudacaoo(nome, saudacao) {
+    console.log(saudacao + nome);
+}
+saudacaoo(nome, saudacao)
