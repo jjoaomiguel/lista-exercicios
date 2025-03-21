@@ -413,7 +413,7 @@ somarArray(notas)
 Crie uma função chamada dobrarNumero que receba
 um número e retorne o dobro desse número.
 
-*/
+
 
 let n = parseFloat(prompt('Digite um número: '));
 
@@ -422,3 +422,19 @@ function dobrarNumero(n) {
     console.log('O dobro desse número é: ' + dobro);
 }
 dobrarNumero(n)
+*/
+
+/*
+23. Laço While para Contagem de Pares:
+Crie um laço while que imprima todos os números pares de 2 até 20.
+
+*/
+
+let n = 2
+
+while (n <= 20) {
+    n++
+    if (n % 2 === 0) {
+        console.log(n)
+    }
+}
