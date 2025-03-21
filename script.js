@@ -198,3 +198,12 @@ function verificarPalindromo (string) {
 verificarPalindromo (string)
 
 */
+
+// LISTA 1 FEITA
+
+/*
+11. Verificação de Número Positivo ou Negativo:
+Crie uma função chamada verificarSinal que receba um número como
+parâmetro e imprima "Positivo", "Negativo" ou "Zero" conforme o caso.
+
+*/
