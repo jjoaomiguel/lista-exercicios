@@ -369,7 +369,7 @@ for (let i = 0; i <= 30; i++) {
 Crie uma função chamada contarVogais que receba uma palavra
 e retorne a quantidade de vogais que ela possui.
 
-*/
+
 
 let string = prompt('Digite uma palavra: ')
 let i = 0
@@ -384,3 +384,25 @@ function contarVogais(string) {
     console.log(i)
 }
 contarVogais(string) 
+*/
+
+/*
+21. Soma dos Elementos de um Array:
+Crie uma função chamada somarArray que receba um array
+de números e retorne a soma de todos os elementos.
+
+*/
+const n1 = parseFloat(prompt('Digite seu primeiro número: '));
+const n2 = parseFloat(prompt('Digite seu segundo número: '));
+const n3 = parseFloat(prompt('Digite seu terceiro número: '));
+let notas = [n1, n2, n3];
+
+let somaDasNotas = 0;
+
+function somarArray(notas) {
+    for (let i = 0; i < notas.length; i++) {
+        somaDasNotas += notas[i];
+    }
+    console.log(somaDasNotas)
+}
+somarArray(notas)
