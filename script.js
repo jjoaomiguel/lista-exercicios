@@ -316,7 +316,7 @@ Crie uma função chamada saudacao que tenha dois parâmetros,
 nome e saudacao, sendo saudacao padrão "Bem-vindo(a)".
 A função deve retornar a frase completa.
 
-*/
+
 
 let nome = prompt('Digite seu nome: ');
 let saudacao = 'Bem vindo(a)! '
@@ -325,3 +325,24 @@ function saudacaoo(nome, saudacao) {
     console.log(saudacao + nome);
 }
 saudacaoo(nome, saudacao)
+
+*/
+
+/*
+18. Verificação de Nota:
+Crie uma função chamada verificarAprovacao que receba uma nota
+retorne "Aprovado" se for maior ou igual a 6, e "Reprovado"
+se for menor que 6.
+
+*/
+
+let nota = prompt('Digite sua nota: ')
+
+function verificarAprovacao(nota) {
+    if (nota >= 6) {
+        console.log('Você está Aprovado!')
+    } else {
+        console.log('Você está Reprovado.')
+    }
+}
+verificarAprovacao(nota)
