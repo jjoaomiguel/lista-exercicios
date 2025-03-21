@@ -70,7 +70,7 @@ console.log ("FIM!")
 Crie uma função chamada inverterTexto que receba uma string como 
 parâmetro e retorne essa string invertida.
 
-*/
+
 
 let string = prompt('Digite sua palavra:')
 
@@ -80,3 +80,21 @@ function inverterTexto(string) {
 }
 
 inverterTexto(string)
+
+*/
+
+/*
+5. Contagem de Caracteres em uma String:
+Crie uma função chamada contarCaracteres que receba
+uma string e retorne o número de caracteres dessa string.
+
+*/
+
+let string = prompt('Digite sua palavra:')
+
+function contarCaracteres(string) {
+    let qntdLetras = string.length;
+    console.log(qntdLetras);
+}
+
+contarCaracteres(string)
