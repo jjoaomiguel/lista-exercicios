@@ -206,4 +206,21 @@ verificarPalindromo (string)
 Crie uma função chamada verificarSinal que receba um número como
 parâmetro e imprima "Positivo", "Negativo" ou "Zero" conforme o caso.
 
+
+let n = prompt('Digite um número: ')
+
+function verificarSinal(n) {
+    if (n > 0) {
+        console.log('Positivo')
+    } else if (n < 0) {
+        console.log('Negativo')
+    } else if (n == 0) {
+        console.log('Zero')
+    }
+}
+
+verificarSinal(n)
 */
+
+
+
