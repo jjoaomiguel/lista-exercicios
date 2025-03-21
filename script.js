@@ -354,10 +354,33 @@ verificarAprovacao(nota)
 Crie um laço for que percorra os números de 0 a 30
 e imprima apenas os números pares.
 
-*/
+
 
 for (let i = 0; i <= 30; i++) {
     if (i % 2 === 0) {
         console.log(i)
     }
 }
+
+*/
+
+/*
+20. Contagem de Vogais:
+Crie uma função chamada contarVogais que receba uma palavra
+e retorne a quantidade de vogais que ela possui.
+
+*/
+
+let string = prompt('Digite uma palavra: ')
+let i = 0
+let vogais = 'aeiouAEIOU'
+
+function contarVogais(string) {
+    for (let letra of string) {
+        if (vogais.includes(letra)) {
+            i++
+        }
+    }
+    console.log(i)
+}
+contarVogais(string) 
