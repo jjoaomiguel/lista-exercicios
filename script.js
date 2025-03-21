@@ -53,7 +53,7 @@ calcular(numero1, numero2);
 Crie um laço while que imprima os números de 
 10 até 1 no console, um número por vez.
 
-*/
+
 
 let contador = 10
 
@@ -62,3 +62,21 @@ while (contador >= 1) {
     contador--;
 }
 console.log ("FIM!")
+
+*/
+
+/* 
+4. Manipulação de Strings: 
+Crie uma função chamada inverterTexto que receba uma string como 
+parâmetro e retorne essa string invertida.
+
+*/
+
+let string = prompt('Digite sua palavra:')
+
+function inverterTexto(string) {
+    let reversed = string.split('').reverse().join('');
+    console.log(reversed)
+}
+
+inverterTexto(string)
